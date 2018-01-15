@@ -25,24 +25,41 @@ A selection of web sites where members of the group can continue their learning 
 Design Patterns Catalogs
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-* `SourceMaking`_: Website specialized in design patterns, anti-patterns, refactoring and UML.
-* `Catalog of Patterns of Enterprise Application Architecture`_: Martin Fowler awesome catalog of enterprise application patterns.
-* `Enterprise Integration Patterns`_: Great catalog of patterns to create messaged-based systems.
-* `Workflow Patterns`_: A catalog of workflow orchestration patterns.
+`SourceMaking`_:
+ Website specialized in design patterns, anti-patterns, refactoring and UML.
+
+`Catalog of Patterns of Enterprise Application Architecture`_:
+ Martin Fowler awesome catalog of enterprise application patterns.
+
+`Enterprise Integration Patterns`_:
+ Great catalog of patterns to create messaged-based systems.
+
+`Workflow Patterns`_:
+ A catalog of workflow orchestration patterns.
 
 Object-Oriented Programming 101: Must Reads
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-* `Principles of Object Oriented Design`_: Website containing dozens of references to other excellent papers on well known design techniques, principles and patterns.
-* `Type, Data Abstraction and Polymorphism`_: Best explanation ever on polymorphism and type systems by the great type theorist Luca Cardeli.
-* `Encapsulation and Inheritance`_: Best explanation ever on the true meaning of encapsulation by the great Alan Snyder.
-* `Abstraction vs Information Hiding vs Encapsulation`_: Great article that delves into the semantic similarities and differences of these three fundamental concepts.
+`Principles of Object Oriented Design`_:
+ Website containing dozens of references to other excellent papers on well known design techniques, principles and patterns.
+
+`Type, Data Abstraction and Polymorphism`_:
+ Best explanation ever on polymorphism and type systems by the great type theorist Luca Cardeli.
+
+`Encapsulation and Inheritance`_:
+ Best explanation ever on the true meaning of encapsulation by the great Alan Snyder.
+
+`Abstraction vs Information Hiding vs Encapsulation`_:
+ Great article that delves into the semantic similarities and differences of these three fundamental concepts.
 
 Other Interesting Readings
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-* `Teach Yourself Programming in Ten Years`_: Peter Norving with a compelling argument about how it takes time and effort to become really good at programming.
-* `Non-software Examples of Design Patterns`_
+`Teach Yourself Programming in Ten Years`_:
+ Peter Norving with a compelling argument about how it takes time and effort to become really good at programming.
+
+`Non-software Examples of Design Patterns`_:
+ Interesting examples of design patterns used in ordinary, real life situations.
 
 
 .. _Design Patterns Elements of Reusable Object-Oriented Software: http://www.informit.com/store/design-patterns-elements-of-reusable-object-oriented-9780201633610
