@@ -2,7 +2,7 @@ Design Patterns Study Group
 ===========================
 
 .. contents:: Table of Contents
-:local:
+  :local:
 
 The Books
 ---------
@@ -69,6 +69,24 @@ Other Interesting Readings
 
 `Non-software Examples of Design Patterns`_:
  Interesting examples of design patterns used in ordinary, real life situations.
+
+The Patterns
+------------
+
+Creational
+^^^^^^^^^^
+
+TBD
+
+Structural
+^^^^^^^^^^
+
+TBD
+
+Behavioral
+^^^^^^^^^^
+
+TBD
 
 
 .. _Design Patterns Elements of Reusable Object-Oriented Software: http://www.informit.com/store/design-patterns-elements-of-reusable-object-oriented-9780201633610
