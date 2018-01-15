@@ -124,6 +124,41 @@ Whereas Flyweight shows how to make lots of little objects, Facade shows how to 
 
 Decorator describes how to add responsibilities to objects dynamically. Decorator is a structural pattern that composes objects recursively to allow an open-ended number of additional responsibilities. For example, a Decorator object containing a user interface component can add a decoration like a border or shadow to the component, or it can add functionality like scrolling and zooming. We can add two decorations simply by nesting one Decorator object within another, and so on for additional decorations. To accomplish this, each Decorator object must conform to the interface of its component and must forward messages to it. The Decorator can do its job (such as drawing a border around the component) either before or after forwarding a message.
 
+Adapter
+*******
+
+TBD
+
+Bridge
+******
+
+TBD
+
+Composite
+*********
+
+TBD
+
+Decorator
+*********
+
+TBD
+
+Façade
+******
+
+TBD
+
+Flyweight
+*********
+
+TBD
+
+Proxy
+*****
+
+TBD
+
 Behavioral
 ^^^^^^^^^^
 
@@ -138,6 +173,57 @@ Chain of Responsibility provides even looser coupling. It lets you send requests
 The Observer pattern defines and maintains a dependency between objects. The classic example of Observer is in Smalltalk Model/View/Controller, where all views of the model are notified whenever the model's state changes.
 
 Other behavioral object patterns are concerned with encapsulating behavior in an object and delegating requests to it. The Strategy pattern encapsulates an algorithm in an object. Strategy makes it easy to specify and change the algorithm an object uses. The Command pattern encapsulates a request in an object so that it can be passed as a parameter, stored on a history list, or manipulated in other ways. The State pattern encapsulates the states of an object so that the object can change its behavior when its state object changes. Visitor encapsulates behavior that would otherwise be distributed across classes, and Iterator abstracts the way you access and traverse objects in an aggregate.
+
+Chain of Responsibility
+***********************
+
+TBD
+
+Command
+*******
+
+Interpreter
+***********
+
+TBD
+
+Iterator
+********
+
+TBD
+
+Mediator
+********
+
+TBD
+
+Memento
+*******
+
+TBD
+
+Observer
+********
+
+TBD
+
+State
+*****
+
+TBD
+
+Strategy
+********
+
+Template Method
+***************
+
+TBD
+
+Visitor
+*******
+
+TBD
 
 
 .. _Design Patterns Elements of Reusable Object-Oriented Software: http://www.informit.com/store/design-patterns-elements-of-reusable-object-oriented-9780201633610
