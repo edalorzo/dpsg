@@ -111,7 +111,8 @@ Defines a family of algorithms, encapsulates each one, and make them interchange
 * Should you ever use switch statements? Why or why not?
 * What does "interface" mean in the statement "program to an interface, not to an implementation"? Do you think it means we are supposed to use something like Java interfaces?
 * What are advantages of composition over inheritance?
-* How can the strategy pattern be implemented with a functional programming pattern?
+* How can the strategy pattern be implemented in a dynamically-typed programming language like JavaScript?
+* How can the strategy pattern be implemented in a functional programming language?
 
 **Optional Readings**
 
