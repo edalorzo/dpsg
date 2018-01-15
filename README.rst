@@ -215,6 +215,48 @@ TBD
 Strategy
 ********
 
+Defines a family of algorithms, encapsulates each one, and make them interchangeable. Strategy lets algorithms vary independently from clients that use it.
+
+**Readings**
+
+* `Head First Design Patterns`_, Welcome to Design Patterns, page 1-35.
+* `Design Patterns Elements of Reusable Object-Oriented Software`_, Strategy Pattern, page 315-323.
+
+**Questions**
+
+# What is the intent of the strategy pattern?
+# What are the consequences of the strategy pattern?
+# What are possible indications of the need to use a strategy pattern?
+# How can the context and the concrete strategy share information?
+# How can the behavior of the context be altered dynamically using a strategy pattern?
+# How can conditional statements be eliminated using a strategy pattern?
+# Why is it preferable to use composition over inheritance in a case like this? (See fragile base class issue)
+# What are the advantages/disadvantages of parameter passing? (loose coupling vs unused info)
+# What are the advantages/disadvantages of passing the context? (strong coupling vs require info only)
+# Is there anything that can be done to make the design less coupled when the context is passed as parameter?
+# How can clients be exposed to implementation issue by having to instantiate a concrete strategy?
+# What can be done to deal with an explosion of strategy objects? (See stateless strategies, flyweight pattern)
+# Why is it said that 'using inheritance instead of strategy is harder to maintain, understand and extend? (see Duck problem)
+# What are the main OO principles enforced by the strategy pattern and how?
+# How does the strategy pattern foster the idea of designing for change?
+# Why is the object-aggregation approach to inheritance superior to direct class inheritance for handling variation?
+# What is meant by "switch creep"?
+# What is wrong with copy and paste?
+# Have you ever been in a situation where you did not feel you could afford to anticipate change? What drove you that way? What was the result?
+# Should you ever use switch statements? Why or why not?
+# What does "interface" mean in the statement "program to an interface, not to an implementation"? Do you think it means we are supposed to use something like Java interfaces?
+# What are advantages of composition over inheritance?
+# How can the strategy pattern be implemented with a functional programming pattern?
+
+**Optional Readings**
+
+* `Effective Java`_, Item 18: Favor Composition over Inheritance, page 87-92.
+* `Refactoring to Pattern`_, Replace Conditional Logic with Strategy, page 129-143.
+* `Design Patterns Explained`_, Chapter 9: The Strategy Pattern, page 139-157.
+* `Refactoring Improving the Design of Existing Code`_, Chapter 9: Simplify Conditional Expressions, page 237-239.
+* `Refactoring Improving the Design of Existing Code`_, Introduce Parameter Object, page 295-299.
+* `A Study of The Fragile Base Class Problem`_.
+
 Template Method
 ***************
 
@@ -235,6 +277,7 @@ TBD
 .. _Elemental Design Patterns: http://www.informit.com/store/elemental-design-patterns-9780321711922
 .. _Code Complete: http://www.informit.com/store/code-complete-9780735619678
 .. _Effective Java: http://www.informit.com/store/effective-java-9780134685991
+.. _Refactoring Improving the Design of Existing Code: http://www.informit.com/store/refactoring-improving-the-design-of-existing-code-9780201485677
 .. _SourceMaking: https://sourcemaking.com
 .. _Catalog of Patterns of Enterprise Application Architecture: https://martinfowler.com/eaaCatalog/
 .. _Enterprise Integration Patterns: http://www.enterpriseintegrationpatterns.com/patterns/messaging/
@@ -245,3 +288,4 @@ TBD
 .. _Abstraction vs Information Hiding vs Encapsulation: http://www.tonymarston.co.uk/php-mysql/abstraction.txt
 .. _Teach Yourself Programming in Ten Years: https://drive.google.com/file/d/0Bxed3Yafe-7xQ05oNDVBX0ZTQms/view
 .. _Non-software Examples of Design Patterns: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.106.8473&rep=rep1&type=pdf
+.. _A Study of The Fragile Base Class Problem: http://www.cas.mcmaster.ca/~emil/Publications_files/MikhajlovSekerinski98FragileBaseClassProblem.pdf
