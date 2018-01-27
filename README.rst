@@ -70,3 +70,24 @@ Other Interesting Readings
 `Non-software Examples of Design Patterns`_:
  Interesting examples of design patterns used in ordinary, real life situations.
 
+.. _Design Patterns Elements of Reusable Object-Oriented Software: http://www.informit.com/store/design-patterns-elements-of-reusable-object-oriented-9780201633610
+.. _Head First Design Patterns: https://www.amazon.com/Head-First-Design-Patterns-Brain-Friendly-ebook/dp/B00AA36RZY
+.. _Design Patterns Explained: http://www.informit.com/store/design-patterns-explained-a-new-perspective-on-object-9780321247148
+.. _Holub on Patterns: https://www.apress.com/la/book/9781590593882#otherversion=9781430253617
+.. _Refactoring to Pattern: http://www.informit.com/store/refactoring-to-patterns-9780321213358
+.. _Object-Oriented Analysis and Design with Applications: http://www.informit.com/store/object-oriented-analysis-and-design-with-applications-9780201895513
+.. _Elemental Design Patterns: http://www.informit.com/store/elemental-design-patterns-9780321711922
+.. _Code Complete: http://www.informit.com/store/code-complete-9780735619678
+.. _Effective Java: http://www.informit.com/store/effective-java-9780134685991
+.. _Refactoring Improving the Design of Existing Code: http://www.informit.com/store/refactoring-improving-the-design-of-existing-code-9780201485677
+.. _SourceMaking: https://sourcemaking.com
+.. _Catalog of Patterns of Enterprise Application Architecture: https://martinfowler.com/eaaCatalog/
+.. _Enterprise Integration Patterns: http://www.enterpriseintegrationpatterns.com/patterns/messaging/
+.. _Workflow Patterns: http://workflowpatterns.com
+.. _Principles of Object Oriented Design: http://www.butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod
+.. _Type, Data Abstraction and Polymorphism: https://drive.google.com/file/d/0Bxed3Yafe-7xRkJMOGR3UGdIZG8/view
+.. _Encapsulation and Inheritance: https://drive.google.com/file/d/0Bxed3Yafe-7xeWFqeEZXNHljM1U/view
+.. _Abstraction vs Information Hiding vs Encapsulation: http://www.tonymarston.co.uk/php-mysql/abstraction.txt
+.. _Teach Yourself Programming in Ten Years: https://drive.google.com/file/d/0Bxed3Yafe-7xQ05oNDVBX0ZTQms/view
+.. _Non-software Examples of Design Patterns: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.106.8473&rep=rep1&type=pdf
+.. _A Study of The Fragile Base Class Problem: http://www.cas.mcmaster.ca/~emil/Publications_files/MikhajlovSekerinski98FragileBaseClassProblem.pdf
