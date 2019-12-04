@@ -83,8 +83,8 @@ Recommended Readings
 Alternative Readings
 ********************
 
-* `Refactoring to Patterns`_, p.247-257: Unify Interfaces with Adapter
-* `Refactoring to Patterns`_, p.258-268: Extract Adapter
+* Unify Interfaces with Adapter, `Refactoring to Patterns`_, p.247-257
+* Extract Adapter, `Refactoring to Patterns`_, p.258-268
 * `Law of Demeter <https://en.wikipedia.org/wiki/Law_of_Demeter>`_ (aka Principle of Least Knowledge)
 
 Related Questions
@@ -106,6 +106,43 @@ Related Questions
 * Discuss the `Principle of Least Knowledge <https://en.wikipedia.org/wiki/Law_of_Demeter>`_ on page 265 in `Head First Design Patterns`_. 
 
   - Take a small chunk of code you’ve written, and go through each line to see if it violates the Principle of Least Knowledge. Are there any cases in which you think you should change your code? If so, why?
+
+Bridge
+~~~~~~
+
+Recommended Readings
+********************
+
+* `Design Patterns`_, p.151-161
+* `Head First Design Patterns`_, p.235-254
+* `Design Patterns Explained`_, p.159-192
+
+Alternative Readings
+********************
+
+* The Meaning of Abstraction, `Object-Oriented Analysis and Design with Applications`_, p.44-50
+* Form Consistent Abstractions, `Code Complete`_, p.89-90.
+* Bridge, `Holub on Patterns`_, p.364-365.
+* `Opaque Pointer <https://en.wikipedia.org/wiki/Opaque_pointer>`_
+
+Related Questions
+*****************
+
+* What is an abstraction and how is that different from an implementation? 
+* How does the *bridge* prevents class explosion?
+* How does the *bridge* differ from a *strategy* and a *strategy's* context?
+* What is the basic problem being solved by the *bridge* pattern?
+* How is implementation defined in the context of the *bridge* pattern?
+* Should the implementor share the same interface as the abstraction?
+* What does it mean when the Gang of Four says that the intent of the *bridge* pattern is to "decouple an abstraction from its implementations so that the two can vary independently"?.
+* Why can tight coupling lead to an explosion in the number of classes?
+* How, when, and where do you decide which implementor class to instantiate when there's more than one?
+* Why do you think the Gang of Four call this pattern "Bridge"? 
+ 
+  - Is it an appropriate name for what it is doing? Why or why not? 
+* Is it necessary to define an abstract implementation when there is one one possible implementation?
+* How does the bridge pattern foster the principles of "encapsulate what varies" and "favor composition over inheritance"?
+* Bonus question: Why do you think Carolan called this technique 'a `Cheshire Cat <https://www.youtube.com/watch?v=2ueZo5i6GPg>`_ Idiom'? (Only for `Lewis Caroll <https://en.wikipedia.org/wiki/Lewis_Carroll>`_ fans:-) )
 
 
 Further Readings
