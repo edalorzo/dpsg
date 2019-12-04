@@ -54,6 +54,7 @@ The readings used by this study group are a careful selection of different chapt
 * `Object-Oriented Analysis and Design with Applications`_
 * `Code Complete`_
 * `Effective Java`_
+* `Agile Principles, Patterns and Practices in C#`_
 
 Official GoF Pattern Catalog
 ----------------------------
@@ -145,6 +146,54 @@ Related Questions
 * Bonus question: Why do you think Carolan called this technique 'a `Cheshire Cat <https://www.youtube.com/watch?v=2ueZo5i6GPg>`_ Idiom'? (Only for `Lewis Caroll <https://en.wikipedia.org/wiki/Lewis_Carroll>`_ fans:-) )
 
 
+Composite
+~~~~~~~~~
+
+Recommended Readings
+********************
+
+* `Design Patterns`_, p.163-173
+* `Head First Design Patterns`_, p.315-384
+
+Alternative Readings
+********************
+
+* Single Resposibility Principle, `Agile Principles, Patterns and Practices in C#`_, p109-114.
+* Extract Composite, `Refactoring to Patterns`_, p.214-223
+* Replce Implicit Tree with Composite, `Refactoring to Patterns`_, p.178-190
+* Replace One/Many Distinctions with Composite, `Refactoring to Patterns`_, p.224-235
+
+Related Questions
+*****************
+
+* What is the difference between components, composites and trees?
+* How does *composite* makes clients simpler but the design overly general?
+* If the *composite* needs to be traversed in both directions what is the best place to put the parent reference?
+* What problems can arise from sharing the same component with multiple parents?
+* How does the *composite* conflicts with the principle of "class hierarchy design" that says that a class should only define operations that are meaningful to its subclasses?
+* What should leaf classes do to implement operations that only pertain to the *composite*?
+* How can leaves implement child management operations? Contrast/discuss transparency vs safety.
+* How does the *composite* pattern help to consolidate system-wide conditional logic?
+* Where is the place to put the instance variable that will hold the child references for a *composite*?
+* How can we deal with child ordering in the *composite*?
+* How can *composite* traversal performance be improved?
+* If children need to be deleted, which participant is responsible of doing the deletion and clean up? 
+
+  - What problems can arise related to garbage collection? 
+  - What about immutable components?
+* What data structures can be used to implement the *composite*?
+* Would you use the *composite* pattern if you did not have a part-whole hierarchy? In other words, if only a few objects have children and almost everything else in your collection is a leaf (a leaf can have no children), would you still use the *composite* pattern to model these objects? Defend position.
+* Discuss the Brain Power on page 337 in `Head First Design Patterns`_.
+* What is the *Single Responsibility Principle* (SRP)? 
+
+  - How does it relate to the *composite* pattern?
+  - How does it relate to the concept of cohesion?
+  - What is consider a "responsibility" in the SRP?
+  - How to decide when to separate responsibilities? Discuss rigidity vs needless complexity.
+  - How does the Single Responsibility principle relate to the other patterns you know?
+* What are the differences between the relationships of components, composites, trees, etc. 
+
+
 Further Readings
 ----------------
 
@@ -216,3 +265,4 @@ Other Interesting Readings
 .. _Non-software Examples of Design Patterns: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.106.8473&rep=rep1&type=pdf
 .. _A Study of The Fragile Base Class Problem: http://www.cas.mcmaster.ca/~emil/Publications_files/MikhajlovSekerinski98FragileBaseClassProblem.pdf
 .. _Design by Contract: http://se.inf.ethz.ch/~meyer/publications/computer/contract.pdf
+.. _Agile Principles, Patterns and Practices in C#: http://www.informit.com/store/agile-principles-patterns-and-practices-in-c-sharp-9780131857254
