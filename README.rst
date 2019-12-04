@@ -4,8 +4,8 @@ Design Patterns Study Group
 .. contents:: Table of Contents
   :local:
 
-  Study Group Mechanics
----------------------
+Study Group Mechanics
+-----------------------
 
 The study group members gather regularly to improve their understanding of design patterns. The study group organizes and maintains an agenda of readings. Prior to each meeting, participants have read and reflected upon the readings and must come prepared with questions, ideas about, or explanations of the readings. 
 
