@@ -49,7 +49,7 @@ The readings used by this study group are a careful selection of different chapt
 * `Head First Design Patterns`_
 * `Design Patterns Explained`_
 * `Holub on Patterns`_
-* `Refactoring to Pattern`_
+* `Refactoring to Patterns`_
 * `Elemental Design Patterns`_
 * `Object-Oriented Analysis and Design with Applications`_
 * `Code Complete`_
@@ -77,15 +77,15 @@ Adapter
 Recommended Readings
 ********************
 
-* Design Patterns, p.139-150
-* Head First Design Patterns, p.235-254
+* `Design Patterns`_, p.139-150
+* `Head First Design Patterns`_, p.235-254
 
 Alternative Readings
 ********************
 
-* Refactoring to Patterns, p.247-257: Unify Interfaces with Adapter
-* Refactoring to Patterns, p.258-268: Extract Adapter
-* `Law of Demeter <https://en.wikipedia.org/wiki/Law_of_Demeter>`_
+* `Refactoring to Patterns`_, p.247-257: Unify Interfaces with Adapter
+* `Refactoring to Patterns`_, p.258-268: Extract Adapter
+* `Law of Demeter <https://en.wikipedia.org/wiki/Law_of_Demeter>`_ (aka Principle of Least Knowledge)
 
 Related Questions
 *****************
@@ -102,8 +102,8 @@ Related Questions
   - Discuss the similarities and differences in *adapter* and *proxy*. 
   - When would you use one vs. another? 
   - Under what conditions would an *adapter* look like *proxy*?
-* Discuss the Brain Power on page 244 in Head First Design Patterns.
-* Discuss the `Principle of Least Knowledge <https://en.wikipedia.org/wiki/Law_of_Demeter>`_ on page 265 in Head First Design Patterns. 
+* Discuss the Brain Power on page 244 in `Head First Design Patterns`_.
+* Discuss the `Principle of Least Knowledge <https://en.wikipedia.org/wiki/Law_of_Demeter>`_ on page 265 in `Head First Design Patterns`_. 
 
   - Take a small chunk of code you’ve written, and go through each line to see if it violates the Principle of Least Knowledge. Are there any cases in which you think you should change your code? If so, why?
 
@@ -156,11 +156,12 @@ Other Interesting Readings
 `Non-software Examples of Design Patterns`_:
  Interesting examples of design patterns used in ordinary, real life situations.
 
+.. _Design Patterns: http://www.informit.com/store/design-patterns-elements-of-reusable-object-oriented-9780201633610
 .. _Design Patterns Elements of Reusable Object-Oriented Software: http://www.informit.com/store/design-patterns-elements-of-reusable-object-oriented-9780201633610
 .. _Head First Design Patterns: https://www.amazon.com/Head-First-Design-Patterns-Brain-Friendly-ebook/dp/B00AA36RZY
 .. _Design Patterns Explained: http://www.informit.com/store/design-patterns-explained-a-new-perspective-on-object-9780321247148
 .. _Holub on Patterns: https://www.apress.com/la/book/9781590593882#otherversion=9781430253617
-.. _Refactoring to Pattern: http://www.informit.com/store/refactoring-to-patterns-9780321213358
+.. _Refactoring to Patterns: http://www.informit.com/store/refactoring-to-patterns-9780321213358
 .. _Object-Oriented Analysis and Design with Applications: http://www.informit.com/store/object-oriented-analysis-and-design-with-applications-9780201895513
 .. _Elemental Design Patterns: http://www.informit.com/store/elemental-design-patterns-9780321711922
 .. _Code Complete: http://www.informit.com/store/code-complete-9780735619678
