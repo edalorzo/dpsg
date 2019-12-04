@@ -4,29 +4,7 @@ Design Patterns Study Group
 .. contents:: Table of Contents
   :local:
 
-The Books
----------
-
-The readings used by this study group are a careful selection of different chapter from the following books:
-
-* `Design Patterns Elements of Reusable Object-Oriented Software`_
-* `Head First Design Patterns`_
-* `Design Patterns Explained`_
-* `Holub on Patterns`_
-* `Refactoring to Pattern`_
-* `Elemental Design Patterns`_
-* `Object-Oriented Analysis and Design with Applications`_
-* `Code Complete`_
-* `Effective Java`_
-
-Official GoF Pattern Catalog
-----------------------------
-
-Initially the group will cover the basic GoF design patterns. However there is no reason why the group cannot later work on other pattern catalogs from other domains (e.g. `JEE <https://www.amazon.com/Professional-Java-EE-Design-Patterns/dp/111884341X/ref=sr_1_1?s=books&ie=UTF8&qid=1422162198&sr=1-1&keywords=Java+EE+PAtterns>`_, `Enterprise Applications <https://www.amazon.com/Patterns-Enterprise-Application-Architecture-Martin/dp/0321127420/ref=sr_1_1?s=books&ie=UTF8&qid=1422162238&sr=1-1&keywords=patterns+of+enterprise+application+architecture>`_, `SOA <https://www.amazon.com/Design-Patterns-Prentice-Service-Oriented-Computing/dp/0136135161/ref=sr_1_2?s=books&ie=UTF8&qid=1422162269&sr=1-2&keywords=soa+patterns>`_, `Integration <https://www.amazon.com/Enterprise-Integration-Patterns-Designing-Deploying/dp/0321200683/ref=sr_1_1?s=books&ie=UTF8&qid=1422162295&sr=1-1&keywords=enterprise+integration+patterns>`_, `Functional <https://www.amazon.com/Functional-Programming-Patterns-Scala-Clojure/dp/1937785475/ref=sr_1_1?s=books&ie=UTF8&qid=1422162317&sr=1-1&keywords=Functional+Programming+patterns>`_, `Service <https://www.amazon.com/Service-Design-Patterns-Fundamental-Solutions/dp/032154420X/ref=sr_1_1?s=books&ie=UTF8&qid=1515981953&sr=1-1&keywords=Service+Design+Patterns>`_, etc.)
-
-.. image:: resources/images/GoF_full_medium.png
-
-Study Group Mechanics
+  Study Group Mechanics
 ---------------------
 
 The study group members gather regularly to improve their understanding of design patterns. The study group organizes and maintains an agenda of readings. Prior to each meeting, participants have read and reflected upon the readings and must come prepared with questions, ideas about, or explanations of the readings. 
@@ -55,17 +33,35 @@ The second rule may sound harsh, but that's what guarantees the dynamics of the 
 Tips and Suggestions for Members
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-If you really want to take advantage of your group membership, you must do the readings before the group meetings and reflect on their contents. Without an effort to understand the complex materials covered in the readings there will be very little to discuss during the group sessions and the learning transformation exercise all other members of the group are expecting gets seriously handicapped.  
+* If you really want to take advantage of your group membership, you must do the readings before the group meetings and reflect on their contents. Without an effort to understand the complex materials covered in the readings there will be very little to discuss during the group sessions and the learning transformation exercise all other members of the group are expecting gets seriously handicapped.  
+* Don't wait to a few hours before the session to start doing the readings, the concepts covered in them are not easy to digest and requires time and reflection to fully grasp them. Therefore, separate time for this purpose in such a way that you can thoroughly cover the material before the day of the meeting. 
+* Since the group sessions are not lessons, but moderated discussions, it is of paramount importance that you come prepared to discuss the material. Passive members that don't do the work but come to the meetings to see what they can learn won't be tolerated in this type of group as they would be disastrous to the group dynamics. Additionally, this behavior would not be respectful for the rest of group members who thoroughly prepared themselves to discuss their ideas during the group session. 
+* Remember, you do the readings in your own time, and come to the sessions to learn, discuss the material, ask questions, give explanations or simply deepen your knowledge and understanding. The group is just a driving and guiding force to help you achieve the goal of becoming better at understanding using a set of design patterns.
+* A good way to prepare for a sessions is to print the readings, and then highlight points you would like to bring to discussion during the next sessions (e.g.  those concepts that  you did not fully understand or those ideas that you found particularly insightful). You may write side notes with questions, reflections, explanations or ideas. Another great way to contribute is to bring your own examples of where the pattern has been used appropriately or pieces of code or examples of problems that could be solved with a given pattern.
+* Also take a look at the preliminary list of  questions suggested in this site for every pattern and try to see if you can answer them after doing the readings. Most importantly, during the sessions, engage in conversations and discussions since this is the most enriching of all group activities. 
 
-Don't wait to a few hours before the session to start doing the readings, the concepts covered in them are not easy to digest and requires time and reflection to fully grasp them. Therefore, separate time for this purpose in such a way that you can thoroughly cover the material before the day of the meeting. 
+The Books
+---------
 
-Since the group sessions are not lessons, but moderated discussions, it is of paramount importance that you come prepared to discuss the material. Passive members that don't do the work but come to the meetings to see what they can learn won't be tolerated in this type of group as they would be disastrous to the group dynamics. Additionally, this behavior would not be respectful for the rest of group members who thoroughly prepared themselves to discuss their ideas during the group session. 
+The readings used by this study group are a careful selection of different chapter from the following books:
 
-Remember, you do the readings in your own time, and come to the sessions to learn, discuss the material, ask questions, give explanations or simply deepen your knowledge and understanding. The group is just a driving and guiding force to help you achieve the goal of becoming better at understanding using a set of design patterns.
+* `Design Patterns Elements of Reusable Object-Oriented Software`_
+* `Head First Design Patterns`_
+* `Design Patterns Explained`_
+* `Holub on Patterns`_
+* `Refactoring to Pattern`_
+* `Elemental Design Patterns`_
+* `Object-Oriented Analysis and Design with Applications`_
+* `Code Complete`_
+* `Effective Java`_
 
-A good way to prepare for a sessions is to print the readings, and then highlight points you would like to bring to discussion during the next sessions (e.g.  those concepts that  you did not fully understand or those ideas that you found particularly insightful). You may write side notes with questions, reflections, explanations or ideas. Another great way to contribute is to bring your own examples of where the pattern has been used appropriately or pieces of code or examples of problems that could be solved with a given pattern.
+Official GoF Pattern Catalog
+----------------------------
 
-Also take a look at the preliminary list of  questions suggested in this site for every pattern and try to see if you can answer them after doing the readings. Most importantly, during the sessions, engage in conversations and discussions since this is the most enriching of all group activities. 
+Initially the group will cover the basic GoF design patterns. However there is no reason why the group cannot later work on other pattern catalogs from other domains (e.g. `JEE <https://www.amazon.com/Professional-Java-EE-Design-Patterns/dp/111884341X/ref=sr_1_1?s=books&ie=UTF8&qid=1422162198&sr=1-1&keywords=Java+EE+PAtterns>`_, `Enterprise Applications <https://www.amazon.com/Patterns-Enterprise-Application-Architecture-Martin/dp/0321127420/ref=sr_1_1?s=books&ie=UTF8&qid=1422162238&sr=1-1&keywords=patterns+of+enterprise+application+architecture>`_, `SOA <https://www.amazon.com/Design-Patterns-Prentice-Service-Oriented-Computing/dp/0136135161/ref=sr_1_2?s=books&ie=UTF8&qid=1422162269&sr=1-2&keywords=soa+patterns>`_, `Integration <https://www.amazon.com/Enterprise-Integration-Patterns-Designing-Deploying/dp/0321200683/ref=sr_1_1?s=books&ie=UTF8&qid=1422162295&sr=1-1&keywords=enterprise+integration+patterns>`_, `Functional <https://www.amazon.com/Functional-Programming-Patterns-Scala-Clojure/dp/1937785475/ref=sr_1_1?s=books&ie=UTF8&qid=1422162317&sr=1-1&keywords=Functional+Programming+patterns>`_, `Service <https://www.amazon.com/Service-Design-Patterns-Fundamental-Solutions/dp/032154420X/ref=sr_1_1?s=books&ie=UTF8&qid=1515981953&sr=1-1&keywords=Service+Design+Patterns>`_, etc.)
+
+.. image:: resources/images/GoF_full_medium.png
+
 
 GoF Patterns Study Guide
 ------------------------
