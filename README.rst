@@ -1,7 +1,7 @@
 Design Patterns Study Group
 ===========================
 
-.. contents:: Table of Contents
+.. contents:: **Table of Contents**
   :local:
 
 Study Group Mechanics
@@ -40,8 +40,8 @@ Tips and Suggestions for Members
 * A good way to prepare for a sessions is to print the readings, and then highlight points you would like to bring to discussion during the next sessions (e.g.  those concepts that  you did not fully understand or those ideas that you found particularly insightful). You may write side notes with questions, reflections, explanations or ideas. Another great way to contribute is to bring your own examples of where the pattern has been used appropriately or pieces of code or examples of problems that could be solved with a given pattern.
 * Also take a look at the preliminary list of  questions suggested in this site for every pattern and try to see if you can answer them after doing the readings. Most importantly, during the sessions, engage in conversations and discussions since this is the most enriching of all group activities. 
 
-The Books
----------
+Suggested Books
+---------------
 
 The readings used by this study group are a careful selection of different chapter from the following books:
 
@@ -229,7 +229,7 @@ Object-Oriented Programming 101: Must Reads
 `Abstraction vs Information Hiding vs Encapsulation`_:
  Great article that delves into the semantic similarities and differences of these three fundamental concepts.
 
- `Design by Contract`_:
+`Design by Contract`_:
  A coherent set of methodological principles helping to produce correct and robust software.
 
 
