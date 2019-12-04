@@ -7,7 +7,7 @@ Design Patterns Study Group
 Study Group Mechanics
 -----------------------
 
-The study group members gather regularly to improve their understanding of design patterns. The study group organizes and maintains an agenda of readings. Prior to each meeting, participants have read and reflected upon the readings and must come prepared with questions, ideas about, or explanations of the readings. 
+The study group members gather regularly to improve their understanding of design patterns. The study grouporganizes and maintains an agenda of readings. Prior to each meeting, participants have read and reflected upon the readings and must come prepared with questions, ideas about, or explanations of the readings. 
 
 One individual, the moderator, asks the opening question at the commencement of each meeting. This individual is charged with guiding the dialogue during the rest of the meeting, but this individual is not a teacher. He or she is simply considered to be the most advanced student with respect to a reading. If an individual is more advanced than others in the group, it makes sense for that individual to perform the role of moderator for serval meetings until others feel confortable in that role. Should a debate get out of hand or a dialogue stray or lag, the moderator will help refocus the discussion, often asking if the opening questions has been answered or stepping in to make sure that statements are properly validated.  
 
@@ -66,7 +66,46 @@ Initially the group will cover the basic GoF design patterns. However there is n
 GoF Patterns Study Guide
 ------------------------
 
-TBD
+Below you will find the recommended readings, optional readings and the questions that can be covered for everyone of the de GoF design patterns. Feel fre to contribute your own readings and questions.
+
+Structural Patterns
+^^^^^^^^^^^^^^^^^^^
+
+Adapter
+~~~~~~~
+
+Recommended Readings
+********************
+
+* Design Patterns, p.139-150
+* Head First Design Patterns, p.235-254
+
+Alternative Readings
+********************
+
+* Refactoring to Patterns, p.247-257: Unify Interfaces with Adapter
+* Refactoring to Patterns, p.258-268: Extract Adapter
+* `Law of Demeter <https://en.wikipedia.org/wiki/Law_of_Demeter>`_
+
+Related Questions
+*****************
+
+* Does an *adapter* always adapts only one class?
+* Since the *adapter* also wraps an object (the *adaptee*), how is it different from a *decorator* pattern?
+* What are the two types of *adapters* and how do they differ in implementation?
+* How is an *adapter* different from a *façade*?
+* Would you ever create an *adapter* that has the same interface as the object which it adapts? 
+  
+  - Would your adapter then be a proxy?
+* Stage a fireside chat between *adapter* and *proxy*. 
+
+  - Discuss the similarities and differences in *adapter* and *proxy*. 
+  - When would you use one vs. another? 
+  - Under what conditions would an *adapter* look like *proxy*?
+* Discuss the Brain Power on page 244 in Head First Design Patterns.
+* Discuss the `Principle of Least Knowledge <https://en.wikipedia.org/wiki/Law_of_Demeter>`_ on page 265 in Head First Design Patterns. 
+
+  - Take a small chunk of code you’ve written, and go through each line to see if it violates the Principle of Least Knowledge. Are there any cases in which you think you should change your code? If so, why?
 
 
 Further Readings
