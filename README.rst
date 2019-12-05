@@ -276,7 +276,7 @@ Recommended Readings
 ********************
 
 * Flyweight, `Design Patterns`_, p.195-206
-* Being Adaptive, `Head First Design Patterns`_, p.618-619
+* Flyweight, `Head First Design Patterns`_, p.618-619
 
 Group Study Questions
 *********************
