@@ -3,6 +3,7 @@ Design Patterns Study Group
 
 .. contents:: **Table of Contents**
   :local:
+  :depth: 3
 
 Study Group Mechanics
 -----------------------
