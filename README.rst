@@ -294,6 +294,38 @@ Group Study Questions
 * How do you manage the extrinsic state? where do you put it? who is responsible for it?
 * What downsides can you determine for this pattern?
 
+Proxy
+~~~~~
+
+Recommended Readings
+********************
+
+* Proxy, `Design Patterns`_, p.207-217
+* Controlling Object Access, `Head First Design Patterns`_, p.429-497
+
+Alternative Readings
+********************
+
+* `Java Proxies <https://docs.oracle.com/javase/8/docs/api/java/lang/reflect/Proxy.html>`_.
+* `Java Remote Method Invocation API <https://docs.oracle.com/javase/8/docs/technotes/guides/rmi/index.html>`_
+
+Group Study Questions
+*********************
+
+* What is the intent of the *proxy* pattern?
+* Is the *proxy* always responsible of creating the real subject?
+* What are different types of *proxies* and what are they used for? 
+
+  - Discuss the different types of proxy: remote proxy, virtual proxy, and protection proxy. 
+  - Make sure everyone in the group understands each type of proxy, and come up with examples of each.
+  - In every type of proxy mentioned above, how does the proxy gets a reference to the real subject? 
+* What are the main similitudes and differences between proxy and decorator?
+* If a *proxy* is used to instantiate an object only when it is absolutely needed, does the *proxy* simplify code?
+* Discuss the second Brain Power on page 435 in `Head First Design Patterns`_.
+* Discuss the proxy zoo on page 488 in `Head First Design Patterns`_. Come up with at least one example habitat for each type of proxy–in other words, examples of when and where you might want to use that type of *proxy*.
+* How does Spring uses Java *proxies* to provide additional functionality to components?
+* How does AOP differers from the *proxy* pattern?
+
 Further Readings
 ----------------
 
