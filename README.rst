@@ -423,9 +423,9 @@ Group Study Questions
 * In multithreaded application, what would be the risk of sharing the same *command* between multiple threads? In other words, are commands thread-safe?
 * In Java 8, and in other OO languages with support for functional programming, how can we use functors (i.e. objects that are functions) to implement the command pattern?
 
-  - Think, for e.g. of Java 8 `Function<T,R>` or C# `Func<T,R>`, combined with lambdas or method references (in Java) or delegates (in C#) that encapsulate the body of the command. 
+  - Think, for e.g. of Java 8 ``Function<T,R>`` or C# ``Func<T,R>``, combined with lambdas or method references (in Java) or delegates (in C#) that encapsulate the body of the command. 
   - There might be a discussion about the advantages of closures to accesses contextual data in the invoker that makes the commands simpler to implement
-  - How is a *command* different than a lambda or a "glorified function"?
+  - How is a *command* different than a closure or a "glorified function"?
 * Bonus question: How could we define a command that could be interrupted?
 
 Further Readings
