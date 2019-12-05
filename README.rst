@@ -269,6 +269,31 @@ Group Study Questions
   - Take a small chunk of code you’ve written, and go through each line to see if it violates the Principle of Least Knowledge. 
   - Are there any cases in which you think you should change your code? If so, why?
 
+Flyweight
+~~~~~~~~~
+
+Recommended Readings
+********************
+
+* Flyweight, `Design Patterns`_, p.195-206
+* Being Adaptive, `Head First Design Patterns`_, p.618-619
+
+Group Study Questions
+*********************
+
+* What is a non-GUI example of a *flyweight*?
+* What is the minimum configuration for using *flyweight*? 
+
+  - Do you need to be working with thousands of objects, hundreds, tens?
+* When to use the *flyweight* pattern?
+* What is intrinsic and extrinsic states and why are they so important to this pattern?
+* When do you have the better storage savings using *flyweight* pattern?
+* What things you need to identify to apply the pattern correctly? (When makes sense to use it, when not)
+* What is the importance of the `FlyweightFactory` in the pattern?
+* How this pattern reduces objects creation?
+* How do you manage the extrinsic state? where do you put it? who is responsible for it?
+* What downsides can you determine for this pattern?
+
 Further Readings
 ----------------
 
