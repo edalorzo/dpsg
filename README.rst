@@ -51,6 +51,7 @@ The readings used by this study group are a careful selection of different chapt
 * `Head First Design Patterns`_
 * `Design Patterns Explained`_
 * `Holub on Patterns`_
+* `Refactoring - Improving the Design of Existing Code`_
 * `Refactoring to Patterns`_
 * `Elemental Design Patterns`_
 * `Object-Oriented Analysis and Design with Applications`_
@@ -453,6 +454,11 @@ Recommended Readings
 * Memento, `Design Patterns`_, p.283-291
 * Memento, `Head First Design Patterns`_, p.624-625
 
+Alternative Readings
+********************
+
+* Single Resposibility Principle, `Agile Principles, Patterns and Practices in C#`_, p109-114.
+
 Group Study Questions
 *********************
 
@@ -477,6 +483,109 @@ Group Study Questions
 * What kind of logic could you place inside the *memento* object to control how state is re-applied?
 * What important consideration about the persisted state (inside the *memento* object) should we contemplate if we are implementing *memento*? 
 
+Observer
+~~~~~~~~
+
+Recommended Readings
+********************
+
+* Observer, `Design Patterns`_, p.293-303
+* Keeping your Objects in the Know, `Head First Design Patterns`_, p.37-78
+
+Alternative Readings
+********************
+
+* Replace Hard-Coded Notification with Observer, `Refactoring to Patterns`_, p.236-246
+* Keeping Coupling Loose, `Code Complete`_, p.100-102
+* Move Accumulation to Collection Parameter, `Refactoring to Patterns`_, p.313-319
+* `Reacting Programming with RxJava <http://reactivex.io/intro.html>`_
+* `Deprecating the Observer Pattern <http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.186.8309&rep=rep1&type=pdf>`_
+
+Group Study Questions
+*********************
+
+* What are other common names for the *observer* pattern?
+* When is the *observer* pattern applicable?
+* In Page 51 `Head First Design Patterns`_ describes how the *observer* pattern is like a newspaper subscription. 
+
+  - Come up with several other real-world examples of the *observer* pattern.
+* What is one of the most famous UI patterns that uses the *observer* pattern?
+* Which participant(s) can be responsible of triggering the update/notification mechanism? 
+
+  - Should notification only be triggered by the subject?
+* How does the *observer* pattern foster the design principle of "striving for loosely coupled designs"?
+* How does the *observer* patterns foster the design principle of "program to an interface, not to an implementation"?
+* How does the *observer* pattern foster the design principle of "favor composition over inheritance"?
+* How can we control the amount of updates the *observers* receive?
+* How can the *observers* determine what changed in the subject? 
+  
+  - Discuss the two possible protocols for notification (pull vs push).
+* What are the advantages and disadvantages of the pull/push notification protocols?
+* How can subjects keep track of their *observers*?
+* How can the *observers* determine from which subject they're being notified, in case they have subscribed with more than one subject?
+* What should happen if an exception occurs while notifying one of the *observers*? 
+
+  - Consider the same question in a scenario where *observers* are being notified asynchronously. Would the same strategy works?
+* What should happen with transactions? Should it expand to all *observers* or should we start a new transaction per *observer* notification?
+* What happens if we want to delete a subject? 
+  
+  - How can we ensure there will be no dangling references to it from its *observers*? 
+  - Why could it be bad to keep these dangling references?
+* Should *observers* keep a reference to their subject? Why/Why not?
+* What is the importance to ensuring self consistent state in the subject before notifying its *observers*?
+* How can the *observer* pattern be combined with the *template method* pattern? 
+
+  - How can this be used to avoid notifying *observers* in inconsistent state? 
+* What can we do when we have *observers* interested only in certain types of events/aspects of the *observer*? 
+* What is a change manager and what are its responsibilities?
+* When the dependency relationship between subject and *observer* is complex, how can a change manager control the communication between subject and *observers*?
+* When an *observer* observes more than one subject, how can we avoid redundant updates/notifications?
+* The classic Model-View-Controller design is explained in GoF Implementation note #8: Encapsulating complex update semantics. 
+
+  - Would it ever make sense for an *observer* (or view) to talk directly to the subject (or model)?
+* How would you approach the task of debugging code in such a system?
+* Is it clear to you how you would handle concurrency problems with this pattern? 
+
+  - Consider an ``unregister()`` message being sent to a subject, just before the subject sends a ``notify()`` message to the ``ChangeManager`` (or Controller).
+* What are the disadvantages of the Java implementation of the *observer* pattern in the `java.util` package?
+* How is the observable pattern exploited in reactive programming? 
+* Consider the case of remote observers (e.g. RMI). These can be destroyed without the subject being notified.
+
+  - How should the subject deal with these? 
+* What other known APIs use the *observer* pattern?
+
+State
+~~~~~
+
+Recommended Readings
+********************
+
+* State, `Design Patterns`_, p.305-313
+* The State of Things, `Head First Design Patterns`_, p.385-428
+
+Alternative Readings
+********************
+
+* Replace State-Altering Conditionals with State, `Refactoring to Patterns`_, p.166-177
+* Replace Type Code with State/Strategy, `Refactoring - Improving the Design of Existing Code`_, p.140-143 
+* Replace Type Code with Class, `Refactoring - Improving the Design of Existing Code`_, p.134-137 
+* Replace Type Code with Subclass, `Refactoring - Improving the Design of Existing Code`_, p.138-140
+* Replace Conditional Logic with Polymorphism, `Refactoring - Improving the Design of Existing Code`_, p.19-26 
+* Open/Close Principle, `Agile Principles, Patterns and Practices in C#`_, p121-133.
+
+Group Study Questions
+*********************
+
+* If something has only two to three states, is it overkill to use a *state* pattern?
+* Continue the *state* vs. *strategy* discussion in `Head First Design Patterns` on page 411. 
+
+  - Both patterns have the exact same class diagram, but they differ in intent. Debate on how they differ.
+  - Compare how clients interact with them, e.g. who sets the strategy vs who sets the state?
+* How a given *state* can communicate with its context? (constructor delegation, parameter delegation, etc.)
+* How are *states* initiated? (all at once vs when needed).
+* Where is the next *state* decided? (context vs concrete classes).
+* Discuss visibility of the concrete *state* classes.
+* Discuss benefits/drawbacks of using an abstract class vs an interface for states.
 
 Further Readings
 ----------------
@@ -550,3 +659,4 @@ Other Interesting Readings
 .. _A Study of The Fragile Base Class Problem: http://www.cas.mcmaster.ca/~emil/Publications_files/MikhajlovSekerinski98FragileBaseClassProblem.pdf
 .. _Design by Contract: http://se.inf.ethz.ch/~meyer/publications/computer/contract.pdf
 .. _Agile Principles, Patterns and Practices in C#: http://www.informit.com/store/agile-principles-patterns-and-practices-in-c-sharp-9780131857254
+.. _Refactoring - Improving the Design of Existing Code: http://www.informit.com/store/refactoring-improving-the-design-of-existing-code-9780201485677
