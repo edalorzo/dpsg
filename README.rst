@@ -4,6 +4,7 @@ Design Patterns Study Group
 .. contents:: **Table of Contents**
   :local:
   :depth: 3
+  :backlinks: top
 
 Study Group Mechanics
 -----------------------
