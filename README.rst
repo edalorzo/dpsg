@@ -419,7 +419,7 @@ Group Study Questions
   - This is a discussion about one level undo vs multiple level undos.
 * How could the *command* pattern be combined with *prototype* pattern to easily create new commands based on existing ones?
 * What happens if undo fails and application is now in a inconsistent state?
-* How a framework like Spring offers command implementations to do do things like programatic transactions, retry support, database access layer impel rations (e.g. see Springs TransactionTemplate, RetryTemplate and JdbcTemplate)
+* How a framework like Spring offers command implementations to do do things like programatic transactions, retry support, database access layer impel rations (e.g. see Springs ``TransactionTemplate``, ``RetryTemplate`` and ``JdbcTemplate``)
 * In multithreaded application, what would be the risk of sharing the same *command* between multiple threads? In other words, are commands thread-safe?
 * In Java 8, and in other OO languages with support for functional programming, how can we use functors (i.e. objects that are functions) to implement the command pattern?
 
@@ -427,6 +427,56 @@ Group Study Questions
   - There might be a discussion about the advantages of closures to accesses contextual data in the invoker that makes the commands simpler to implement
   - How is a *command* different than a closure or a "glorified function"?
 * Bonus question: How could we define a command that could be interrupted?
+
+
+Mediator
+~~~~~~~~
+
+Recommended Readings
+********************
+
+* Mediator, `Design Patterns`_, p.273-282
+* Mediator, `Head First Design Patterns`_, p.622-623
+
+Group Study Questions
+*********************
+
+* Since a Mediator becomes a repository for logic, can the code that implements this logic begin to get overly complex, possible resembling spaghetti code? How could this potential problem be solved?
+* WIP...
+
+Memento
+~~~~~~~
+
+Recommended Readings
+********************
+
+* Memento, `Design Patterns`_, p.283-291
+* Memento, `Head First Design Patterns`_, p.624-625
+
+Group Study Questions
+*********************
+
+* What is the intent of the *memento* Pattern?
+* Which are the participants in pattern?
+* The authors write that the “Caretaker” participant never operates on or examines the contents of a *memento*. 
+
+  - Can you consider a case where a Caretaker would in fact need to know the identity of a *memento* and thus need the ability to examine or query the contents of that memento? 
+  - Would this break something in the pattern?
+* How does *memento* protect the state of an object without exposing it to other classes? 
+* Who is responsible for re-applying the state persisted in the *memento* object? 
+* What is the difference between the Care Taker and the Originator's client? 
+
+  - Could these two roles be implemented by the same class?
+* How is the *memento* pattern leveraging the "encapsulate what varies" principle?
+* How does the *memento* pattern implement the "single responsibility" principle?
+* What drawbacks could a *memento* implementation suffer if the Originator's state or variation rate scales up?   
+* How would you design narrow and wide interfaces in an implementation of the *memento* pattern so that the Care Taker does not have access to the wide interface?
+* What conditions have to exist in order to be able to apply an incremental *memento*?
+* How can *memento* be applied to other patterns such as *iterator* and *command*?
+* If we leverage *memento* to implement the *iterator* pattern, how would it allow us to apply multiple iterators over the same collection at the same time?
+* What kind of logic could you place inside the *memento* object to control how state is re-applied?
+* What important consideration about the persisted state (inside the *memento* object) should we contemplate if we are implementing *memento*? 
+
 
 Further Readings
 ----------------
