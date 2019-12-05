@@ -194,6 +194,48 @@ Related Questions
 * What are the differences between the relationships of components, composites, trees, etc. 
 
 
+Decorator
+~~~~~~~~~
+
+Recommended Readings
+********************
+
+* Decorator, `Design Patterns`_, p.175-184
+* Decorating Objects, `Head First Design Patterns`_, p.79-107
+
+Alternative Readings
+********************
+
+* Move Embellishment to Decorator, `Refactoring to Patterns`_, p.144-165
+* Open/Close Principle, `Agile Principles, Patterns and Practices in C#`_, p121-133.
+
+Related Questions
+*****************
+
+* What is the intent of the *decorator* pattern?
+* When do we use a *decorator*?
+* How does a *decorator* provide a flexible alternative to subclassing/class inheritance?
+* How do *decorators* avoid the need to define an explosion of classes in a class hierarchy?
+* How code relying on object identity fail to work with a *decorator*?
+* How does the *decorator* makes systems harder to learn and debug?
+* Should we always define the abstract *decorator* interface? 
+
+  - Can't it be defined directly in the concrete decorator?
+* How could the *decorator* behavior be implemented with a *strategy* pattern?
+* When is the *strategy* pattern a better choice than a *decorator*? 
+
+  - Discuss advantages/disadvantages of every case.
+* How does the *decorator* fosters the *open/close* principle?
+* What does it mean when they say the *decorator* "changes the skin of an object not its guts"?
+* Why isn't the component the *decorator* itself? 
+
+  - In other words, why the *decorator* interface must be separate from the component interface
+* What does it mean that the *decorator* object’s interface must conform to the interface of the component it decorates? Why is that important? (e.g. transparency)
+* Stage a debate about the *decorator*: one person should take the side of using the *decorator* pattern and argue the advantages, the other should take the side of using inheritance and argue the advantages. 
+  
+  - See if the rest of the group can come up with examples of when one solution is better than the other.
+* What are good examples of the decorator pattern in well know APIS, e.g. JDK IO API?
+
 Further Readings
 ----------------
 
