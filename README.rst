@@ -587,6 +587,25 @@ Group Study Questions
 * Discuss visibility of the concrete *state* classes.
 * Discuss benefits/drawbacks of using an abstract class vs an interface for states.
 
+Strategy
+~~~~~~~~
+
+Recommended Readings
+********************
+
+* Strategy, `Design Patterns`_, p.315-323
+* Welcome to Design Patterns, `Head First Design Patterns`_, p.1-35
+
+Alternative Readings
+********************
+
+* Favor Composition over Inheritance, `Effective Java`_, p.81-86
+* `A Study of the Fragile Base Class Problem <https://drive.google.com/file/d/0Bxed3Yafe-7xTWc4ZnpKdUxpYnM/view>`_
+* Replace Conditional Logic with Strategy, `Refactoring to Patterns`_, p.129-143
+* Simplify Conditional Expressions, `Refactoring - Improving the Design of Existing Code`_, p.147-169
+* Introduce parameter Object, `Refactoring - Improving the Design of Existing Code`_, p.185-188
+* Strategy Pattern, `Design Patterns Explained`_, p.139-157
+
 Further Readings
 ----------------
 
