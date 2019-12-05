@@ -680,6 +680,30 @@ Group Study Questions
   - Split into smaller groups if you like, and then come back together to discuss or debate as a large group.
 
 
+Visitor
+~~~~~~~
+
+Recommended Readings
+********************
+
+* Visitor, `Design Patterns`_, p.331-349
+* Visitor, `Head First Design Patterns`_, p.628-629
+
+Alternative Readings
+********************
+
+* Move Accumulation to Visitor, `Refactoring to Patterns`_, p.320-338
+* `Double Dispatch <https://en.wikipedia.org/wiki/Double_dispatch>`_
+* `Visitor in Java: Double dispatch (within a single hierarchy) <https://sourcemaking.com/design_patterns/visitor/java/2>`_
+
+Group Study Questions
+*********************
+
+* One issue with the Visitor pattern involves cyclicality. When you add a new Visitor, you must make changes to existing code. How would you work around this possible problem?
+* How can the visitor be used to implement multiple dispatch?
+* WIP....
+
+
 Further Readings
 ----------------
 
