@@ -9,7 +9,7 @@ Design Patterns Study Group
 Study Group Mechanics
 -----------------------
 
-The study group members gather regularly to improve their understanding of design patterns. The study grouporganizes and maintains an agenda of readings. Prior to each meeting, participants have read and reflected upon the readings and must come prepared with questions, ideas about, or explanations of the readings. 
+The study group members gather regularly to improve their understanding of design patterns. The study group organizes and maintains an agenda of readings. Prior to each meeting, participants have read and reflected upon the readings and must come prepared with questions, ideas about, or explanations of the readings. 
 
 One individual, the moderator, asks the opening question at the commencement of each meeting. This individual is charged with guiding the dialogue during the rest of the meeting, but this individual is not a teacher. He or she is simply considered to be the most advanced student with respect to a reading. If an individual is more advanced than others in the group, it makes sense for that individual to perform the role of moderator for serval meetings until others feel confortable in that role. Should a debate get out of hand or a dialogue stray or lag, the moderator will help refocus the discussion, often asking if the opening questions has been answered or stepping in to make sure that statements are properly validated.  
 
@@ -28,7 +28,7 @@ The members of the study group must follow the next three simple rules:
 
 * Do the readings!
 * Come prepared or don't come at all!
-* Participate. Bring questions, answers, explanations, ideas!
+* Participate: bring questions, answers, explanations, ideas, examples!
 
 The second rule may sound harsh, but that's what guarantees the dynamics of the study group. Otherwise the group quickly transforms into a lecture hall where the more advanced student becomes the lecturer.
 
@@ -327,6 +327,46 @@ Group Study Questions
 * Discuss the proxy zoo on page 488 in `Head First Design Patterns`_. Come up with at least one example habitat for each type of proxy–in other words, examples of when and where you might want to use that type of *proxy*.
 * How does Spring uses Java *proxies* to provide additional functionality to components?
 * How does AOP differers from the *proxy* pattern?
+
+Behavioral Patterns
+^^^^^^^^^^^^^^^^^^^
+
+Chain of Responsibility
+~~~~~~~~~~~~~~~~~~~~~~~
+
+Recommended Readings
+********************
+
+* Chain of Responsibility, `Design Patterns`_, p.223-232
+* Being Adaptive, `Head First Design Patterns`_, p.617
+
+Alternative Readings
+********************
+
+* Single Resposibility Principle, `Agile Principles, Patterns and Practices in C#`_, p109-114.
+* `Apache Commons Chain of Responsibility <http://commons.apache.org/proper/commons-chain/>`_
+* `Separation of Concerns <https://en.wikipedia.org/wiki/Separation_of_concerns>`_
+
+Group Study Questions
+*********************
+
+* How does *chain of responsibility* reduces coupling between the sender of a request and its receiver?
+* How does the *chain of responsibility* pattern differ from the *decorator* pattern or from a linked list?
+* Is it helpful to look at patterns from a structural perspective? In other words, if you see how a set of patterns are the same in terms of how they are programmed, does that help you to understand when to apply them to a design?
+* What are different ways to define the successor chain?
+* What are different ways to represent a request?
+* Can the *command* pattern be used to represent the requests?
+* What happens if the request reaches the end of the chain without being properly handled?
+* Does it make sense to use *chain of responsibility* when each request is only handled by one handler, or, when the client object knows which service object should handle the request?
+* Let's discuss how a programming language like Java or C# deals with exception handling and how this concept relates to the idea of how the chain of responsibility works. 
+
+  - How about inheritance and dynamic dispatch?
+* How can *chain of responsibility* be combined with a *composite* pattern?
+
+  - If we use the *composite*, can successor actually be considered from the point of view of children handlers?
+* How does *chain of responsibility* implements the *single responsibility principle*?
+* How does *chain of responsibility* implements the *separation of concerns principle*? 
+* What other patterns decouples senders of requests from receivers?
 
 Further Readings
 ----------------
