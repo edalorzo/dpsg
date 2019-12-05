@@ -703,6 +703,8 @@ Group Study Questions
 * How can the visitor be used to implement multiple dispatch?
 * WIP....
 
+Creational Patterns
+^^^^^^^^^^^^^^^^^^^
 
 Abstract Factory
 ~~~~~~~~~~~~~~~~
