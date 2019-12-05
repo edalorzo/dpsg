@@ -1,7 +1,7 @@
 Design Patterns Study Group
 ===========================
 
-.. contents:: **Table of Contents**
+.. contents:: 
   :local:
   :depth: 3
   :backlinks: top
@@ -703,6 +703,38 @@ Group Study Questions
 * How can the visitor be used to implement multiple dispatch?
 * WIP....
 
+
+Abstract Factory
+~~~~~~~~~~~~~~~~
+
+Recommended Readings
+********************
+
+* Abstract Factory, `Design Patterns`_, p.87-95
+* The Abstract Factory Pattern, `Design Patters Explained`_, p.193-213
+
+Alternative Readings
+********************
+
+* Baking with OO Goodness, `Head First Design Patterns`_, p109-168
+* Dependency Inversion Principle, `Agile Principles, Patterns and Practices in C#`_, p153-162
+* `Inversion of Control Containers and the Dependency Injection Pattern <https://www.martinfowler.com/articles/injection.html>`_
+
+Group Study Questions
+*********************
+
+* Although using “switches” can be a reasonable solution to a problem that requires choosing among alternatives, it caused problems design. Can tell what kind of problems those would be?
+* What might a switch indicate the need for?
+* Why is this pattern named “Abstract Factory”?
+* What are the three key strategies in the *abstract factory*?
+* What are the consequences of the *abstract factory* pattern?
+* Why do you think the Gang of Four call this pattern “Abstract Factory”? 
+
+  - Is it an appropriate name for what it is doing? Why or why not?
+* How do you know when to use the *abstract factory* pattern?
+* What design principles can you name for this pattern?
+* Where to put the concrete factory instantiation and how to decide which concrete factory to use?
+* Why could you need to use an adapter to make *abstract factory* work?
 
 Further Readings
 ----------------
