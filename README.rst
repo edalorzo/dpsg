@@ -236,6 +236,39 @@ Group Study Questions
   - See if the rest of the group can come up with examples of when one solution is better than the other.
 * What are good examples of the decorator pattern in well know APIS, e.g. JDK IO API?
 
+Façade
+~~~~~~
+
+Recommended Readings
+********************
+
+* Façade, `Design Patterns`_, p.185-193
+* Being Adaptive, `Head First Design Patterns`_, p.254-274
+
+Alternative Readings
+********************
+
+* `Law of Demeter <https://en.wikipedia.org/wiki/Law_of_Demeter>`_ (aka Principle of Least Knowledge).
+
+Group Study Questions
+*********************
+
+* In the *façade* pattern, what is considered a subsystem?
+* What is the public interface of a subsystem?
+* How does a *façade* make subsystems easier to use?
+* How does the *façade* promotes weak coupling between the clients and the subsystems?
+* Can clients only access the subsystem through the *façade*?
+* Can the *façade* add functionality to a request, or is it just supposed to pass it to the subsystem?
+* How complex must a sub-system be in order to justify using a *façade*?
+* Does each subsystem only have one *façade*?
+* What are the additional uses of a *façade* with respect to an organization of designers and developers with varying abilities? What are the political ramifications?
+* Think of a complex system you have to use every day that you would like a *façade* for. How would you simplify the interface in the *façade*?
+* How is a *façade* different from a *adapter*?
+* Discuss the `Principle of Least Knowledge <https://en.wikipedia.org/wiki/Law_of_Demeter>`_ on page 265. 
+
+  - Take a small chunk of code you’ve written, and go through each line to see if it violates the Principle of Least Knowledge. 
+  - Are there any cases in which you think you should change your code? If so, why?
+
 Further Readings
 ----------------
 
