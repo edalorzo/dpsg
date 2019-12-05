@@ -632,6 +632,54 @@ Group Study Questions
 * What does "interface" mean in the statement "program to an interface, not to an implementation"? Do you think it means we are supposed to use something like Java or C# interfaces, or something else?
 * What are advantages of composition over inheritance?
 
+Template Method
+~~~~~~~~~~~~~~~
+
+Recommended Readings
+********************
+
+* Template Method, `Design Patterns`_, p.325-330
+* Encapsulating Algorithms, `Head First Design Patterns`_, p.275-313
+
+
+Alternative Readings
+********************
+
+* Form Template Method, `Refactoring to Patterns`_, p.205-213
+* Design for Inheritance or else Prohibit it, `Code Complete`, p.87-92
+* Open/Close Principle, `Agile Principles, Patterns and Practices in C#`_, p121-133.
+* Liskov Substitution Principle, `Agile Principles, Patterns and Practices in C#`_, p135-151
+
+Group Study Questions
+*********************
+
+* What is the difference between an *strategy pattern* and a *template method* pattern?
+* How could the *template method* pattern be combined with a *strategy* pattern?
+* The Gang of Four calls this a “template method.” Why do they do this?
+* According to the Gang of Four, the intent of the template method pattern is to “define the skeleton of an algorithm in an operation, deferring some steps to subclasses. Redefine the steps in an algorithm without changing the algorithm’s structure.”  What does this mean?
+* How is the principle of "encapsulate what varies" implemented in the *template method* pattern? 
+* What is the Hollywood Principle? How does the template method implements it?
+* What is the importance of minimizing the number of primitive operations extending classes must implement?
+* What is a hook method and what are they used for?
+* How do we know when to use hooks and when to use abstract methods?
+* How can we avoid that the template method be overridden?
+* How does the *template method* can be designed for inheritance as suggested by Bloch in Effective Java? 
+* How do we know when to use abstract methods and when to use hooks?
+* How does the *template method* provides reusability through inheritance?
+* What can we do in terms of naming conventions to make clearer which operations need overriding?
+* How does the *template method* fosters cohesion?
+* What are the *template method* coupling points?
+* How does the *template method* fosters the open/closed principle?
+* The *template method* relies on inheritance. Would it be possible to get the same functionality of a *template method*, using object composition? What would some of the tradeoffs be?
+* How does the *Hollywood Principle* relate to the *Dependency Inversion Principle*?
+* Take a design that has a lot of lower- and higher-level components (see page 298 in `Head First Design Patterns`_). Now apply the Hollywood principle and clean up the design as a group.
+* Lead a group discussion on the first Brain Power on page 305 in `Head First Design Patterns`_. 
+
+  - Pick apart the implementation of Sun’s sort(), which uses static methods instead of inheritance. 
+  - Did they do the right thing? 
+  - Split into smaller groups if you like, and then come back together to discuss or debate as a large group.
+
+
 Further Readings
 ----------------
 
