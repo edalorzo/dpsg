@@ -78,8 +78,8 @@ Adapter
 Recommended Readings
 ********************
 
-* `Design Patterns`_, p.139-150
-* `Head First Design Patterns`_, p.235-254
+* Adapter, `Design Patterns`_, p.139-150
+* Being Adaptive, `Head First Design Patterns`_, p.235-254
 
 Alternative Readings
 ********************
@@ -114,9 +114,8 @@ Bridge
 Recommended Readings
 ********************
 
-* `Design Patterns`_, p.151-161
-* `Head First Design Patterns`_, p.235-254
-* `Design Patterns Explained`_, p.159-192
+* Bridge, `Design Patterns`_, p.151-161
+* The Bridge Pattern, `Design Patterns Explained`_, p.159-192
 
 Alternative Readings
 ********************
@@ -124,6 +123,7 @@ Alternative Readings
 * The Meaning of Abstraction, `Object-Oriented Analysis and Design with Applications`_, p.44-50
 * Form Consistent Abstractions, `Code Complete`_, p.89-90.
 * Bridge, `Holub on Patterns`_, p.364-365.
+* `Head First Design Patterns`_, p.612-613
 * `Opaque Pointer <https://en.wikipedia.org/wiki/Opaque_pointer>`_
 
 Related Questions
@@ -152,8 +152,8 @@ Composite
 Recommended Readings
 ********************
 
-* `Design Patterns`_, p.163-173
-* `Head First Design Patterns`_, p.315-384
+* Composite, `Design Patterns`_, p.163-173
+* Well-Managed Collections, `Head First Design Patterns`_, p.315-384
 
 Alternative Readings
 ********************
