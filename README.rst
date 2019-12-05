@@ -606,6 +606,32 @@ Alternative Readings
 * Introduce parameter Object, `Refactoring - Improving the Design of Existing Code`_, p.185-188
 * Strategy Pattern, `Design Patterns Explained`_, p.139-157
 
+Group Study Questions
+*********************
+
+* What is the intent of the *strategy* pattern?
+* What are the consequences of the *strategy* pattern?
+* What are possible indications of the need to use a *strategy* pattern?
+* How can the context and the concrete *strategy* share information?
+* How can the behavior of the context be altered dynamically using a *strategy* pattern?
+* How can conditional statements be eliminated using a *strategy* pattern?
+* Why is it preferable to use composition over inheritance in a case like this? (See fragile base class issue)
+* What are the advantages/disadvantages of parameter passing? (loose coupling vs unused info)
+* What are the advantages/disadvantages of passing the context? (strong coupling vs require info only)
+* Is there anything that can be done to make the design less coupled when the context is passed as parameter?
+* How can clients be exposed to implementation issue by having to instantiate a concrete *strategy*?
+* What can be done to deal with an explosion of *strategy* objects? (See stateless *strategies*, *flyweight* pattern)
+* Why is it said that 'using inheritance instead of *strategy* is harder to maintaing, understand and extend? (see the Duck problem in `Head First Design Patterns`_)
+* What are the main object-oriented principles enforced by the *strategy* pattern and how?
+* How does the *strategy* pattern foster the idea of designing for change?
+* Why is the object-aggregation approach to inheritance superior to direct class inheritance for handling variation?
+* What is meant by "switch creep"?
+* What is wrong with copy and paste?
+* Have you ever been in a situation where you did not feel you could afford to anticipate change? What drove you that way? What was the result?
+* Should you ever use switch statements? Why or why not?
+* What does "interface" mean in the statement "program to an interface, not to an implementation"? Do you think it means we are supposed to use something like Java or C# interfaces, or something else?
+* What are advantages of composition over inheritance?
+
 Further Readings
 ----------------
 
