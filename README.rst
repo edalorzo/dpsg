@@ -88,8 +88,8 @@ Alternative Readings
 * Extract Adapter, `Refactoring to Patterns`_, p.258-268
 * `Law of Demeter <https://en.wikipedia.org/wiki/Law_of_Demeter>`_ (aka Principle of Least Knowledge)
 
-Related Questions
-*****************
+Group Study Questions
+*********************
 
 * Does an *adapter* always adapts only one class?
 * Since the *adapter* also wraps an object (the *adaptee*), how is it different from a *decorator* pattern?
@@ -126,8 +126,8 @@ Alternative Readings
 * `Head First Design Patterns`_, p.612-613
 * `Opaque Pointer <https://en.wikipedia.org/wiki/Opaque_pointer>`_
 
-Related Questions
-*****************
+Group Study Questions
+*********************
 
 * What is an abstraction and how is that different from an implementation? 
 * How does the *bridge* prevents class explosion?
@@ -163,8 +163,8 @@ Alternative Readings
 * Replce Implicit Tree with Composite, `Refactoring to Patterns`_, p.178-190
 * Replace One/Many Distinctions with Composite, `Refactoring to Patterns`_, p.224-235
 
-Related Questions
-*****************
+Group Study Questions
+*********************
 
 * What is the difference between components, composites and trees?
 * How does *composite* makes clients simpler but the design overly general?
@@ -209,8 +209,8 @@ Alternative Readings
 * Move Embellishment to Decorator, `Refactoring to Patterns`_, p.144-165
 * Open/Close Principle, `Agile Principles, Patterns and Practices in C#`_, p121-133.
 
-Related Questions
-*****************
+Group Study Questions
+*********************
 
 * What is the intent of the *decorator* pattern?
 * When do we use a *decorator*?
