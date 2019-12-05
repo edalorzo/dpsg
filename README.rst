@@ -368,6 +368,66 @@ Group Study Questions
 * How does *chain of responsibility* implements the *separation of concerns principle*? 
 * What other patterns decouples senders of requests from receivers?
 
+Command
+~~~~~~~
+
+Recommended Readings
+********************
+
+* Command, `Design Patterns`_, p.233-242
+* Encapsulating Invocation, `Head First Design Patterns`_, p.191-233
+
+Alternative Readings
+********************
+
+* Replace Conditional Dispatcher with Command, `Refactoring to Patterns`_, p.191-201
+* `The Command Pattern <http://wiki.c2.com/?CommandPattern>`_
+* `Uses of Command Pattern <https://en.wikipedia.org/wiki/Command_pattern#Uses>`_
+
+Group Study Questions
+*********************
+
+* What are other names of the *command* pattern?
+* What are the participants of the *command* pattern?
+* What is the intend of the *command* pattern?
+* In the motivation section of the *command* pattern, an application’s menu system is described: an application has a menu, which in turn has menu items, which in turn execute commands when they are clicked. 
+  
+  - What happens if the *command* needs some information about the application in order to do its job? 
+  - How would the *command* have access to such information such that new commands could easily be written that would also have access to the information they need?
+* What is a *macro command*? Discuss how it could be designed.
+* How does the *command* pattern decouples the object that invokes the operation from the one that has the knowledge to perform it? 
+* Lead a group discussion on what it means to “encapsulate invocation” and how this relates to the *command* pattern.
+* How does the *command* pattern compares to callbacks?
+* Can you think of another real-world example of where you might want to use the *command* pattern?
+* Put on a skit where each person in the group plays a role in the *command* pattern: the client, one or more commands, the invoker, and the receiver. 
+
+  - Act out the ordering of a burger in the diner (`Head First Design Patterns`_ page 201). 
+  - Act out the real-world example from the previous discussion.
+* Discuss how you might use the *command* pattern to implement a menu for a GUI.
+* How can we use the *command* pattern to implement a design that supports a unlimited number of undos? 
+* Should the client be blocked while the *command* is being executed? (consider asynchronous execution, NIO, JavaScript callbacks, etc).
+* What should happen if the *command* fails leaving the receiver in a possibly inconsistent state?
+* What is a *smart command* pattern? 
+* Do you think that supporting the *undo command* transforms the *command* into a state machine? Why, why not?
+* Which are the major design principles that apply to this pattern?
+* How can *command* pattern be used to create a transaction log and reapply operations in the case of a system crash (e.g. `System Prevalence <https://en.wikipedia.org/wiki/System_prevalence>`_ as implemented in `Prevayler <http://prevayler.org/>`_)
+* How can the *command* pattern be used to model transactions?
+* How can we combine the *command* pattern with the *composite* pattern? (e.g. MacroCommand).
+* How can we combine the *command* pattern with the *memento* pattern to implement undo operations? 
+  
+  - Think about how to gradually restore the state of the receiver to a previous state in time by applying a historical, ordered, succession of undos. 
+  - This is a discussion about one level undo vs multiple level undos.
+* How could the *command* pattern be combined with *prototype* pattern to easily create new commands based on existing ones?
+* What happens if undo fails and application is now in a inconsistent state?
+* How a framework like Spring offers command implementations to do do things like programatic transactions, retry support, database access layer impel rations (e.g. see Springs TransactionTemplate, RetryTemplate and JdbcTemplate)
+* In multithreaded application, what would be the risk of sharing the same *command* between multiple threads? In other words, are commands thread-safe?
+* In Java 8, and in other OO languages with support for functional programming, how can we use functors (i.e. objects that are functions) to implement the command pattern?
+
+  - Think, for e.g. of Java 8 `Function<T,R>` or C# `Func<T,R>`, combined with lambdas or method references (in Java) or delegates (in C#) that encapsulate the body of the command. 
+  - There might be a discussion about the advantages of closures to accesses contextual data in the invoker that makes the commands simpler to implement
+  - How is a *command* different than a lambda or a "glorified function"?
+* Bonus question: How could we define a command that could be interrupted?
+
 Further Readings
 ----------------
 
