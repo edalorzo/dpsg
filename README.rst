@@ -713,7 +713,7 @@ Recommended Readings
 ********************
 
 * Abstract Factory, `Design Patterns`_, p.87-95
-* The Abstract Factory Pattern, `Design Patters Explained`_, p.193-213
+* The Abstract Factory Pattern, `Design Patterns Explained`_, p.193-213
 
 Alternative Readings
 ********************
@@ -737,6 +737,47 @@ Group Study Questions
 * What design principles can you name for this pattern?
 * Where to put the concrete factory instantiation and how to decide which concrete factory to use?
 * Why could you need to use an adapter to make *abstract factory* work?
+
+Builder
+~~~~~~~
+
+Recommended Readings
+********************
+
+* Builder, `Design Patterns`_, p.97-106
+* Builder, `Head First Design Patterns`_, p.614-615
+
+Alterntive Readings
+*******************
+
+* Encapsulate Composite with Builder, `Refactoring to Patterns`_, p.96-113
+* Consider a Builder when Faced with Many Constructor Parameters, `Effective Java`_, p.11-16
+
+Group Study Questions
+*********************
+
+* What’s the intent of the *builder* pattern?
+* List scenarios where you can use this pattern.
+* Do you think that necessarily all these scenarios should happen in order to use this pattern or are they all independent.
+* Which are the participants of this design pattern?
+* What’s the main difference between the *builder* and the other creational patterns?
+* Which are the benefits of using the *builder* pattern?
+* Which are the downsides of the *builder* pattern?
+* Who is responsible for memory handling in this pattern?
+* Can the constructor of the *builder* pattern set or create values by default?
+* Can the operations/methods of the *builder* pattern set or create values by default?
+* Why is there no abstract/parent class for any of the products?
+* Should the *builder* operations be overridable? How could you prevent this to happen?
+* Which is the difference between fluent and non-fluent *builder* pattern?
+* If the building process is abstracted into a class or method, does it continue being a *builder* pattern?
+* Does this pattern implies mutability? i.e. ``StringBuilder`` class in Java 
+* Can we assume that as the *builder* classes grow horizontally, less and less methods are going to be shared between *builders*?
+* Which could be the motivation to use a *builder* pattern instead of a *composite*? 
+  
+  - What advantages could it have to refactor the code?
+  - Why the refactoring from *composite* to builder promotes a loosely coupled design and scalability?
+* Which design principles are related to this design pattern?
+* Like the *abstract factory* pattern, the *builder* pattern requires that you define an interface, which will be used by clients to create complex objects in pieces. In the MazeBuilder example, there are BuildMaze(), BuildRoom() and BuildDoor() methods, along with a GetMaze() method. How could the *builder* pattern allow me to add new methods to the *builder’s* interface, without having to change each and every sub-class of the *builder*?
 
 Further Readings
 ----------------
