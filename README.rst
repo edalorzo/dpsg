@@ -802,7 +802,28 @@ Group Study Questions
 
 * TDB
 
+Prototype
+~~~~~~~~~
 
+Recommended Readings
+********************
+
+* Prototype, `Design Patterns`_, p.117-126
+* Prototype, `Head First Design Patterns`_, p.626-627
+
+Alterntive Readings
+*******************
+
+* Override clone judiciously,`Effective Java`_, p.54-61.
+* `Deep vs Shallow vs Lazy Copy <https://sites.google.com/a/backcountry.com/tico-coding/dpsg/pattern-catalog/creational/prototype>`_
+
+
+Group Study Questions
+*********************
+
+* When should this creational pattern be used over the other creational patterns?
+* Explain the difference between deep vs. shallow copy.
+* WIP...
 
 
 Further Readings
