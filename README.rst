@@ -814,7 +814,7 @@ Recommended Readings
 Alterntive Readings
 *******************
 
-* Override clone judiciously,`Effective Java`_, p.54-61.
+* Override clone judiciously, `Effective Java`_, p.54-61.
 * `Deep vs Shallow vs Lazy Copy <https://sites.google.com/a/backcountry.com/tico-coding/dpsg/pattern-catalog/creational/prototype>`_
 
 
