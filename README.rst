@@ -786,7 +786,7 @@ Recommended Readings
 ********************
 
 * Factory Method, `Design Patterns`_, p.107-116
-* Factory Method, `Designed Patterns Explained`_, p.385-391
+* Factory Method, `Design Patterns Explained`_, p.385-391
 
 Alterntive Readings
 *******************
