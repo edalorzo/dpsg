@@ -825,6 +825,29 @@ Group Study Questions
 * Explain the difference between deep vs. shallow copy.
 * WIP...
 
+Singleton
+~~~~~~~~~
+
+Recommended Readings
+********************
+
+* Singleton, `Design Patterns`_, p.127-134
+* One of a Kind Objects, `Head First Design Patterns`_, p.169-190
+
+Alterntive Readings
+*******************
+
+* Inline Singleton, `Refactoring to Patterns`_, p.114-120
+
+Group Study Questions
+*********************
+
+* Discuss how and why you would use the *singleton* pattern with the *factory* pattern to create objects.
+* What are some disadvantages to the *singleton* pattern?
+* Discuss how you would implement a *singleton* that limited the number of instances to, say, five objects. 
+  - How would you change the code on page 180 of `Head First Design Patterns`_ to do this?
+* The *singleton* pattern is often paired with the *abstract factory* pattern. What other creational or non-creational patterns would you use with the *singleton* pattern?
+* How does a Spring *singleton* differs from a Java *singleton*?
 
 Further Readings
 ----------------
