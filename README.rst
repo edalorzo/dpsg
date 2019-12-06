@@ -779,6 +779,32 @@ Group Study Questions
 * Which design principles are related to this design pattern?
 * Like the *abstract factory* pattern, the *builder* pattern requires that you define an interface, which will be used by clients to create complex objects in pieces. In the MazeBuilder example, there are BuildMaze(), BuildRoom() and BuildDoor() methods, along with a GetMaze() method. How could the *builder* pattern allow me to add new methods to the *builder’s* interface, without having to change each and every sub-class of the *builder*?
 
+Factory Method
+~~~~~~~~~~~~~~
+
+Recommended Readings
+********************
+
+* Factory Method, `Design Patterns`_, p.107-116
+* Factory Method, `Designed Patterns Explained`_, p.385-391
+
+Alterntive Readings
+*******************
+
+* Baking with OO Godness, `Head First Design Patterns`_, p.109-168
+* Introduce Polymorphic Creation with Factory Method, `Refactoring to Patterns`_, p.88-95
+* Move Creation Knowledge to Factory, `Refactoring to Patterns`_, p.68-79
+* Encapsulate Classes with Factory, `Refactoring to Patterns`_, p.80-87
+
+
+Group Study Questions
+*********************
+
+* TDB
+
+
+
+
 Further Readings
 ----------------
 
