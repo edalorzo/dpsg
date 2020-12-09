@@ -926,7 +926,7 @@ Other Interesting Readings
 .. _Type, Data Abstraction and Polymorphism: https://drive.google.com/file/d/0Bxed3Yafe-7xRkJMOGR3UGdIZG8/view
 .. _Encapsulation and Inheritance: https://drive.google.com/file/d/0Bxed3Yafe-7xeWFqeEZXNHljM1U/view
 .. _Abstraction vs. Information Hiding vs Encapsulation: http://www.tonymarston.co.uk/php-mysql/abstraction.txt
-.. _Teach Yourself Programming in Ten Years: https://drive.google.com/file/d/0Bxed3Yafe-7xQ05oNDVBX0ZTQms/view
+.. _Teach Yourself Programming in Ten Years: https://norvig.com/21-days.html 
 .. _Non-software Examples of Design Patterns: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.106.8473&rep=rep1&type=pdf
 .. _A Study of The Fragile Base Class Problem: http://www.cas.mcmaster.ca/~emil/Publications_files/MikhajlovSekerinski98FragileBaseClassProblem.pdf
 .. _Design by Contract: http://se.inf.ethz.ch/~meyer/publications/computer/contract.pdf
